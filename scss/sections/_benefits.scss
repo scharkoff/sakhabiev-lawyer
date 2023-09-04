@@ -1,0 +1,50 @@
+.benefits {
+  min-height: 100vh;
+  padding: 0 0 20px 0;
+
+  &__title {
+    @include section-title;
+    margin-bottom: 30px;
+  }
+
+  &__list {
+    margin: 35px 0 0 0;
+    padding: 0;
+    list-style: none;
+    line-height: 3;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: serif;
+  }
+}
+
+.patch {
+ @include patch;
+}
+
+.content {
+  min-height: calc(100vh - 232px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 820px) {
+  .benefits {
+
+    &__list {
+      font-size: 26px;
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .benefits {
+
+    &__list {
+      font-size: 20px;
+    }
+  }
+}
+

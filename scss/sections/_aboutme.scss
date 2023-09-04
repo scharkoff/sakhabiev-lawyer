@@ -1,0 +1,61 @@
+.aboutme {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+
+  &__title {
+    @include section-title;
+  }
+
+  &__suptitle {
+    color: $primary-color;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      width: 100%;
+      height: 1px;
+      background-color: $primary-color;
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 2;
+    padding: 10px 0;
+  }
+
+  &__foto {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(1.2);
+      width: auto;
+      height: 100%;
+    }
+  }
+
+  &__name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+
+  &__num {
+    color: $grey-text-color;
+  }
+}

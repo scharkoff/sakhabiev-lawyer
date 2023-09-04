@@ -1,0 +1,36 @@
+@mixin section-title {
+  max-width: fit-content;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 auto 60px auto;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 100px;
+    height: 7px;
+    background-color: $primary-color;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+
+  @media screen and (max-width: 820px) {
+    font-size: 32px;
+  }
+}
+
+@mixin patch {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  background-color: $primary-color;
+  padding: 40px 0;
+}

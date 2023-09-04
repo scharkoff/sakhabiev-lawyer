@@ -1,0 +1,54 @@
+.contacts {
+  min-height: 100vh;
+  padding: 0 0 20px 0;
+
+  &__title {
+    @include section-title;
+  }
+
+  &__cards {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__card {
+    text-align: center;
+    border: dotted 2px #e2e2e2;
+    padding: 20px 5px;
+  }
+
+  &__variant {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &__value {
+    font-size: 32px;
+    color: $primary-color;
+
+    a {
+      text-decoration: none;
+      color: $primary-color;
+      margin-left: 10px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+
+}
+
+.patch {
+  @include patch;
+}
+
+.content {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

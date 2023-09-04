@@ -1,0 +1,185 @@
+.scrolled {
+  background-color: #fff;
+  transition: 0.2s linear;
+
+  .header {
+    &__phone {
+      color: #000;
+    }
+
+    &__logo {
+      color: #000;
+    }
+  }
+
+  .menu {
+    color: #000;
+  }
+}
+
+.header {
+  width: 100%;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: 0;
+  color: #fff;
+
+  &__phone {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    line-height: 1.2;
+    margin-right: 5px;
+    text-transform: uppercase;
+
+    i {
+      font-size: 36px;
+      margin-right: 5px;
+    }
+
+    span {
+      font-size: 22px;
+      font-weight: 800;
+    }
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+
+  &__burger {
+    font-size: 30px;
+  }
+
+
+  &__item {
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 18px;
+
+    &:nth-child(2) {
+      margin-left: 0;
+    }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+    &:hover {
+      a {
+        color: $primary-color;
+      }
+    
+    }
+
+    &_active {
+      color: $primary-color !important;
+      font-weight: bold;
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .header {
+    &__phone {
+      font-size: 18px;
+    }
+
+    &__logo {
+      span {
+        font-size: 19px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    &__phone {
+      font-size: 15px;
+    }
+
+    &__logo {
+      i {
+        font-size: 26px;
+      }
+      
+      font-size: 14px;
+
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .menu {
+    &__item {
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    &__phone {
+      font-size: 16px;
+    }
+  }
+
+  .menu {
+    &__item {
+      display: none;
+    }
+
+    &__burger {
+      cursor: pointer;
+    }
+
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header {
+    &__logo {
+      font-size: 14px;
+    }
+  }
+
+}
+
+
+.opened {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-left: 0;
+
+  .menu__item {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
