@@ -1,20 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="./assets/favicon.jpg" type="image/x-icon" />
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="./scss/styles.css" />
   <link rel="stylesheet" href="./bootstrap-5.3.0-dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./scss/fonts/Font-Awesome-6.x/css/all.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <meta name="keywords"
+    content="адвокат казань, юрист казань, адвокат уголовные дела, гражданский адвокат, казань, судебный адвокат казань, уголовные дела казань, гражданские дела казань">
+  <meta name="description"
+    content="Адвокат по уголовным и гражданским делам в Казани. Опыт работы в следственных органах и прокуратуре. Гарантия конфиденциальности и качественной защиты. Звоните по телефону +7 (917) 895-63-67.">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet" />
-  <title>Сахабиев Булат Вахитович - адвокат по уголовным и гражданским делам</title>
+  <title>Адвокат Казань — Сахабиев Булат Вахитович</title>
 </head>
 
 <body>
@@ -36,7 +42,7 @@
         </div>
 
         <div class="col-xl-8 col-lg-8 col-md-6 col-sm-2 col-1">
-          <div class="header__menu">
+          <nav class="header__menu">
             <ul class="menu">
               <li class="menu__burger">
                 <i class="fa fa-list" aria-hidden="true"></i>
@@ -51,7 +57,7 @@
               <li class="menu__item"><a href="#contacts"><i class="fa fa-phone" aria-hidden="true"></i> Контакты</a>
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
       </div>
     </div>
@@ -63,12 +69,12 @@
         <div class="row">
           <div class="col-12 wow animate__slideInUp">
             <h1 class="welcome__title">
-              <span>Адвокат</span> по уголовным и гражданским делам
+              <span>Адвокат</span> по уголовным и гражданским делам в Казани
             </h1>
 
             <div class="welcome__actions">
               <a href="tel:+79178956367">
-                <button class="welcome__button">Позвонить</button>
+                <div class="welcome__button">Позвонить</div>
               </a>
             </div>
 
@@ -93,12 +99,6 @@
 
             </div>
           </div>
-
-          <!-- <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-            <div class="welcome__image">
-              <img src="./assets/img/lady.png" alt="lady" />
-            </div>
-          </div> -->
         </div>
       </div>
     </section>
@@ -114,19 +114,18 @@
         <div class="row">
           <div class="col-12 col-md-4 wow animate__slideInLeft">
             <div class="aboutme__foto">
-              <img src="./assets/img/Bulat.jpg" alt="Сахабиев Булат Вахитович" />
+              <img src="./assets/img/Bulat.jpg" alt="Адвокат Казань Сахабиев Булат Вахитович" />
             </div>
 
             <p class="aboutme__name">Сахабиев Булат Вахитович</p>
 
-            <p class="aboutme__num">
-              **/**** - регистрационный номер в реестре адвокатов Республики
-              Татарстан
-            </p>
+            <!-- <p class="aboutme__num">
+              Место для регистрационного номера
+            </p> -->
           </div>
           <div class="col-12 col-md-8  wow animate__slideInRight">
             <h3 class="aboutme__suptitle">Об адвокате</h3>
-            <div class="aboutme__text">
+            <article class="aboutme__text">
               <p>
                 Обратившись ко мне, казалось бы, в самых безнадежных
                 ситуациях, Вы можете смело рассчитывать на мою постоянную поддержку и нацеленность на
@@ -140,12 +139,13 @@
                 эффективные решения в различных юридически сложных ситуациях. Я осуществляю
                 квалифицированную защиту как по уголовным, так и по гражданским делам.
               </p>
-              Не упускайте драгоценное время! Свяжитесь со мной любым удобным способом! Вместе
-              МЫ все преодолеем!
+              <p>Не упускайте драгоценное время! Свяжитесь со мной любым удобным способом! Вместе
+                МЫ все преодолеем!
               </p>
-            </div>
+            </article>
           </div>
         </div>
+      </div>
     </section>
 
     <section class="specialization" id="specialization">

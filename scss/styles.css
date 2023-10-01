@@ -200,6 +200,7 @@
   font-size: 18px;
   font-weight: 800;
   padding: 10px 20px;
+  display: inline-block;
   letter-spacing: 1px;
   text-transform: uppercase;
   animation: 2s linear 0s infinite alternate fading;

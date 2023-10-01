@@ -1,0 +1,4 @@
+User-agent 
+Disallow 
+Host sakhabiev.ru
+Sitemap httpsakhabiev.rusitemap.xml
