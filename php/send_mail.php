@@ -13,10 +13,9 @@ $mail = new PHPMailer(true);
 
 try {
     // Получение данных из формы
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $phone = $_POST['phone'];
-    $comment = $_POST['comment'];
+    $name = htmlspecialchars($_POST['name'], ENT_QUOTES, 'UTF-8');
+    $phone = htmlspecialchars($_POST['phone'], ENT_QUOTES, 'UTF-8');
+    $comment = htmlspecialchars($_POST['comment'], ENT_QUOTES, 'UTF-8');
 
     // Настройки SMTP
     $mail->isSMTP();
@@ -68,7 +67,6 @@ try {
     <div class='container'>
         <h2>Пользователь оставил заявку на консультацию на Вашем сайте</h2>
         <p><strong>От:</strong> $name</p>
-        <p><strong>Email:</strong> $email</p>
         <p><strong>Телефон:</strong> $phone</p>
         <p><strong>Комментарий:</strong> $comment</p>
     </div>

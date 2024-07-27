@@ -22,5 +22,14 @@
     color: $primary-color;
     font-size: 128px;
     margin: 0 60px 0 0;
+
+    @media screen and (max-width: 1024px) {
+      margin: 0 40px 0 0;
+    }
+
+    @media screen and (max-width: 768px) {
+      font-size: 108px;
+      margin: 0 20px 0 0;
+    }
   }
 }

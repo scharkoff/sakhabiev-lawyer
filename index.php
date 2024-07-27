@@ -98,13 +98,16 @@ session_start();
         <div class="row mt-5">
           <div class="col-12 wow animate__slideInUp">
             <h1 class="welcome__title">
-              <span>Адвокат</span> по уголовным&nbsp; делам. Банкротство
-              физических лиц
+              <span>Адвокат</span> по уголовным&nbsp; делам
             </h1>
+
+            <p class="welcome__suptitle">Защита и представление интересов
+              по уголовным делам
+              любой категории и сложности</p>
 
             <div class="welcome__actions">
               <a href="#feedback" class="me-2 text-decoration-none">
-                <div class="welcome__button-white">Получить консультацию</div>
+                <div class="welcome__button-white mb-2">Получить консультацию</div>
               </a>
 
               <a href="tel:+79178956367">
@@ -386,7 +389,7 @@ session_start();
             <div class="col-12">
               <div class="best_conditions__list wow animate__slideInUp">
                 <div class="row">
-                  <div class="col-lg-6 col-12 mt-4">
+                  <div class="col-lg-6 col-12 mt-2 mt-md-4">
                     <div class="best_conditions__item">
                       <div>
                         <i class="fa-solid fa-gavel best_conditions__icon"></i>
@@ -483,7 +486,7 @@ session_start();
                   <div class="col-12 col-md-6">
                     <div class="price__item">
                       <p>
-                        Защита на стадии доследовательной проверки (до
+                        Защита на стадии доследственной проверки (до
                         возбуждения уголовного дела)
                         <span>от 20 000 рублей</span>
                       </p>
@@ -502,7 +505,7 @@ session_start();
                   <div class="col-12 col-md-6">
                     <div class="price__item">
                       <p>
-                        Защита в суде первой инстации
+                        Защита в суде первой инстанции
                         <span>от 15 000 рублей</span> в месяц
                       </p>
                     </div>
@@ -511,7 +514,7 @@ session_start();
                   <div class="col-12 col-md-6">
                     <div class="price__item">
                       <p>
-                        Защита в суде второй инстации (аппеляция)
+                        Защита в суде второй инстанции (апелляция)
                         <span>от 20 000 рублей</span>
                       </p>
                     </div>
@@ -520,7 +523,7 @@ session_start();
                   <div class="col-12 col-md-6">
                     <div class="price__item">
                       <p>
-                        Защита в суде третьей инстации (кассация)
+                        Защита в суде третьей инстанции (кассация)
                         <span>от 20 000 рублей</span>
                       </p>
                     </div>
@@ -558,7 +561,7 @@ session_start();
                   <div class="col-12 col-md-6">
                     <div class="price__item">
                       <p>
-                        Составление аппеляционной, кассационной жалобы
+                        Составление апелляционной, кассационной жалобы
                         <span>от 10 000 рублей</span>
                       </p>
                     </div>
@@ -567,8 +570,8 @@ session_start();
                   <div class="col-12 col-md-6">
                     <div class="price__item">
                       <p>
-                        Участие адвоката в заседании суда аппеляционной,
-                        кассационной инстации (1 судодень)
+                        Участие адвоката в заседании суда апелляционной,
+                        кассационной инстанции (1 судодень)
                         <span>от 15 000 рублей</span>
                       </p>
                     </div>
@@ -595,7 +598,7 @@ session_start();
                   <div class="col-12 col-md-6">
                     <div class="price__item">
                       <p>
-                        Предоставление интересов потерпевшего
+                        Представление интересов потерпевшего
                         <span>от 10 000 рублей</span>
                       </p>
                     </div>
@@ -619,11 +622,6 @@ session_start();
 
       <div class="content">
         <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h2 class="contacts__title">Галерея сертификатов</h2>
-            </div>
-          </div>
 
           <div class="row wow animate__slideInUp">
             <div class="col-12">
@@ -832,20 +830,15 @@ session_start();
           </div>
 
           <div class="row contacts__cards wow animate__slideInUp">
-            <div class="col-12 col-xl-6">
-              <img src="./assets/img/Bulat_2.webp" alt="" width="550" class="object-fit-contain" />
+            <div class="col-12 col-md-6">
+              <img src="./assets/img/Bulat_2.webp" alt="" class="object-fit-contain feedback__photo" />
             </div>
-            <div class="col-12 col-xl-6">
+            <div class="col-12 col-md-6">
               <h1>Заполните форму ниже</h1>
               <form id="form" action="./php/send_mail.php" method="POST">
                 <div class="d-flex flex-column">
                   <label for="name">ФИО:</label>
                   <input type="text" id="name" name="name" placeholder="Введите ваше полное имя..." required />
-                </div>
-
-                <div class="d-flex flex-column mt-2">
-                  <label for="phone">Электронная почта:</label>
-                  <input type="email" id="email" name="email" placeholder="Введите вашу почту..." required />
                 </div>
 
                 <div class="d-flex flex-column mt-2">
@@ -860,6 +853,10 @@ session_start();
                     placeholder="Напишите необязательный поясняющий комментарий..." />
                 </div>
                 <button type="submit" class="mt-4">Отправить заявку</button>
+
+                <p style="font-size: 14px; color: grey; margin: 10px 0 0 0;">Нажимая кнопку «Отправить заявку», вы
+                  соглашаетесь
+                  на <a href="./Политика_обработки_персональных_данных.pdf">обработку персональных данных</a></p>
               </form>
 
             </div>
@@ -937,6 +934,8 @@ session_start();
         <div class="col-4 text-center">
           <p>© Все права защищены</p>
           <p>КА &#171;Гатауллин и партнёры&#187;</p>
+          <p><a href="./Политика_обработки_персональных_данных.pdf" style="color: #fff;">Политика обработки персональных
+              данных</a></p>
         </div>
         <div class="col-4 text-end">Сахабиев Б.В.</div>
       </div>

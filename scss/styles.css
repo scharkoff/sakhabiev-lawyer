@@ -240,6 +240,13 @@
   padding: 0 10px;
 }
 
+.welcome__suptitle {
+  color: #fff;
+  font-size: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .welcome__actions {
   margin-top: 30px;
 }
@@ -778,6 +785,19 @@
   margin: 0 60px 0 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .best_conditions__icon {
+    margin: 0 40px 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .best_conditions__icon {
+    font-size: 108px;
+    margin: 0 20px 0 0;
+  }
+}
+
 .price__title {
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
@@ -898,6 +918,10 @@
 
 #form button:hover {
   background-color: #0c309c;
+}
+
+.feedback__photo {
+  width: 100%;
 }
 
 * {
