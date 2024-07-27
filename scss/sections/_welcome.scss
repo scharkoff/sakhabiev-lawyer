@@ -14,7 +14,6 @@
   text-align: center;
 
   &__socials {
-
     a {
       text-decoration: none;
       color: #fff;
@@ -67,6 +66,25 @@
     }
   }
 
+  &__button-white {
+    background-color: #fff;
+    color: #000;
+    border: 5px solid #fff;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px 20px;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    animation: 2s linear 0s infinite alternate fading;
+
+    &:hover {
+      background-color: inherit;
+      color: #fff;
+      animation: none;
+    }
+  }
+
   &__image {
     position: absolute;
     bottom: 0;
@@ -80,7 +98,6 @@
   }
 }
 
-
 @keyframes fading {
   from {
     box-shadow: none;
@@ -89,9 +106,7 @@
   to {
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.9);
   }
-  
 }
-
 
 @media screen and (max-width: 820px) {
   .welcome {

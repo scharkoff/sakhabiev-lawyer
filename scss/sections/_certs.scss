@@ -1,0 +1,13 @@
+.certs {
+  &__slider {
+    background-color: rgba(38, 38, 38, 0.859);
+    padding: 10px;
+  }
+}
+
+.cert {
+  &:hover {
+    background-color: rgba(223, 223, 223, 0.301);
+    background-blend-mode: overlay;
+  }
+}

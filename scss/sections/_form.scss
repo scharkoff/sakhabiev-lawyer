@@ -1,0 +1,34 @@
+#form {
+  border-radius: 10px;
+
+  input {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+
+  button {
+    border: none;
+    font-size: 24px;
+    background-color: $primary-color;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+    &:hover {
+      background-color: $primary-lighter-color;
+    }
+  }
+}
+
+// #feedback {
+//   .content {
+//     background-image: url("../assets/img/Bulat_2.webp");
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//   }
+// }

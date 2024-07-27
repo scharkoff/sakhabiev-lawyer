@@ -64,26 +64,24 @@
     font-size: 30px;
   }
 
-
   &__item {
     cursor: pointer;
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 14px;
 
     &:nth-child(2) {
       margin-left: 0;
     }
 
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
 
     &:hover {
       a {
         color: $primary-color;
       }
-    
     }
 
     &_active {
@@ -94,6 +92,11 @@
 }
 
 @media screen and (max-width: 1400px) {
+  .menu {
+    &__item {
+      font-size: 11px;
+    }
+  }
   .header {
     &__phone {
       font-size: 18px;
@@ -117,26 +120,12 @@
       i {
         font-size: 26px;
       }
-      
+
       font-size: 14px;
 
       span {
         font-size: 16px;
       }
-    }
-  }
-
-  .menu {
-    &__item {
-      font-size: 16px;
-    }
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .header {
-    &__phone {
-      font-size: 16px;
     }
   }
 
@@ -148,7 +137,14 @@
     &__burger {
       cursor: pointer;
     }
+  }
+}
 
+@media screen and (max-width: 992px) {
+  .header {
+    &__phone {
+      font-size: 16px;
+    }
   }
 }
 
@@ -158,9 +154,7 @@
       font-size: 14px;
     }
   }
-
 }
-
 
 .opened {
   display: flex;

@@ -9,6 +9,9 @@
 @import "./sections/specialization";
 @import "./sections/contacts";
 @import "./sections/best_conditions";
+@import "./sections/price";
+@import "./sections/certs";
+@import "./sections/form";
 
 * {
   margin: 0;
@@ -28,4 +31,21 @@ body {
 
 .hidden {
   display: none;
+}
+
+.alert {
+  position: fixed !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1050;
+  margin: 0 100px;
+  border-radius: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.countdown {
+  margin-left: 20px;
 }
