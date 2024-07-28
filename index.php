@@ -648,49 +648,57 @@ session_start();
                   <div class="carousel-item active">
                     <a href="./assets/certificates/certificate.pdf" target="_blank">
                       <img src="./assets/certificates/certificate.webp" class="cert d-block w-100 object-fit-contain"
-                        height="400" alt="..." />
+                        height="400"
+                        alt="Сертификат адвоката по уголовным делам Сахабиева Булата Вахитовича по городу Казань 1" />
                     </a>
                   </div>
                   <div class="carousel-item">
                     <a href="./assets/certificates/certificate_1.pdf" target="_blank">
                       <img src="./assets/certificates/certificate_1.webp" class="cert d-block w-100 object-fit-contain"
-                        height="400" alt="..." />
+                        height="400"
+                        alt="Сертификат адвоката по уголовным делам Сахабиева Булата Вахитовича по городу Казань 2" />
                     </a>
                   </div>
                   <div class="carousel-item">
                     <a href="./assets/certificates/certificate_2.pdf" target="_blank">
                       <img src="./assets/certificates/certificate_2.webp" class="cert d-block w-100 object-fit-contain"
-                        height="400" alt="..." />
+                        height="400"
+                        alt="Сертификат адвоката по уголовным делам Сахабиева Булата Вахитовича по городу Казань 3" />
                     </a>
                   </div>
                   <div class="carousel-item">
                     <a href="./assets/certificates/certificate_3.pdf" target="_blank">
                       <img src="./assets/certificates/certificate_3.webp" class="cert d-block w-100 object-fit-contain"
-                        height="400" alt="..." />
+                        height="400"
+                        alt="Сертификат адвоката по уголовным делам Сахабиева Булата Вахитовича по городу Казань 4" />
                     </a>
                   </div>
                   <div class="carousel-item">
                     <a href="./assets/certificates/certificate_4.pdf" target="_blank">
                       <img src="./assets/certificates/certificate_4.webp" class="cert d-block w-100 object-fit-contain"
-                        height="400" alt="..." />
+                        height="400"
+                        alt="Сертификат адвоката по уголовным делам Сахабиева Булата Вахитовича по городу Казань 5" />
                     </a>
                   </div>
                   <div class="carousel-item">
                     <a href="./assets/certificates/certificate_5.pdf" target="_blank">
                       <img src="./assets/certificates/certificate_5.webp" class="cert d-block w-100 object-fit-contain"
-                        height="400" alt="..." />
+                        height="400"
+                        alt="Сертификат адвоката по уголовным делам Сахабиева Булата Вахитовича по городу Казань 6" />
                     </a>
                   </div>
                   <div class="carousel-item">
                     <a href="./assets/certificates/certificate_6.pdf" target="_blank">
                       <img src="./assets/certificates/certificate_6.webp" class="cert d-block w-100 object-fit-contain"
-                        height="400" alt="..." />
+                        height="400"
+                        alt="Сертификат адвоката по уголовным делам Сахабиева Булата Вахитовича по городу Казань 7" />
                     </a>
                   </div>
                   <div class="carousel-item">
                     <a href="./assets/certificates/certificate_9.pdf" target="_blank">
                       <img src="./assets/certificates/certificate_9.webp" class="cert d-block w-100 object-fit-contain"
-                        height="400" alt="..." />
+                        height="400"
+                        alt="Сертификат адвоката по уголовным делам Сахабиева Булата Вахитовича по городу Казань 8" />
                     </a>
                   </div>
                 </div>
@@ -734,35 +742,46 @@ session_start();
           <div class="row wow animate__slideInUp">
             <div class="col-12">
               <div class="d-flex flex-column flex-lg-row">
-                <img class="object-fit-contain me-4"
-                  src="https://m.realnoevremya.ru/uploads/mediateka/7c/79/c0df9b05fc6fa7b1.md.jpg" alt="" width="300" />
-                <div>
-                  <h3>
-                    Только под «кирпич»: стройка театра Камала и «Наш двор»
-                    лишили жителей Казани легального выезда
-                  </h3>
-                  <p>
-                    Продолжающаяся стройка театра Камала, из-за которой
-                    перекрыли часть улицы Хади Такташа в Казани, а также
-                    программа «Наш двор» лишили жителей близлежащих домов и
-                    детский сад легального способа выехать из своих дворов на
-                    улицу Назарбаева, убедился корреспондент «Реального
-                    времени». Как рассказали местные жители, жильцы сразу
-                    девяти домов оказались в заложниках несогласованности двух
-                    строительных работ и вынуждены выезжать из дворов,
-                    фактически нарушая ПДД — под «кирпич».
-                  </p>
-                  <a target="_blank"
-                    href="https://vk.com/away.php?to=https%3A%2F%2Fm.realnoevremya.ru%2Fnews%2F307445-stroyka-teatra-kamala-i-nash-dvor-lishili-zhiteley-kazani-legalnogo-vyezda%3F_url%3D%252Fnews%252F307445-stroyka-teatra-kamala-i-nash-dvor-lishili-zhiteley-kazani-legalnogo-vyezda%23from_desktop&post=19250822_3116&cc_key=&track_code=">Читать
-                    далее...</a>
+                <div class="row">
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <img class="object-fit-contain me-4 w-100"
+                      src="https://m.realnoevremya.ru/uploads/mediateka/7c/79/c0df9b05fc6fa7b1.md.jpg"
+                      alt="Адвокат Сахабиев г. Казань СМИ 1" />
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-8">
+                    <h3>
+                      Только под «кирпич»: стройка театра Камала и «Наш двор»
+                      лишили жителей Казани легального выезда
+                    </h3>
+                    <p>
+                      Продолжающаяся стройка театра Камала, из-за которой
+                      перекрыли часть улицы Хади Такташа в Казани, а также
+                      программа «Наш двор» лишили жителей близлежащих домов и
+                      детский сад легального способа выехать из своих дворов на
+                      улицу Назарбаева, убедился корреспондент «Реального
+                      времени». Как рассказали местные жители, жильцы сразу
+                      девяти домов оказались в заложниках несогласованности двух
+                      строительных работ и вынуждены выезжать из дворов,
+                      фактически нарушая ПДД — под «кирпич».
+                    </p>
+                    <a target="_blank"
+                      href="https://vk.com/away.php?to=https%3A%2F%2Fm.realnoevremya.ru%2Fnews%2F307445-stroyka-teatra-kamala-i-nash-dvor-lishili-zhiteley-kazani-legalnogo-vyezda%3F_url%3D%252Fnews%252F307445-stroyka-teatra-kamala-i-nash-dvor-lishili-zhiteley-kazani-legalnogo-vyezda%23from_desktop&post=19250822_3116&cc_key=&track_code=">Читать
+                      далее...</a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 mt-4">
-              <div class="d-flex flex-column flex-lg-row">
-                <img class="object-fit-contain me-4"
-                  src="https://m.realnoevremya.ru/uploads/mediateka/16/52/404ca60716516cb8.md.jpg" alt="" width="300" />
-                <div>
+
+          </div>
+          <div class="col-12 mt-4">
+            <div class="d-flex flex-column flex-lg-row">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <img class="object-fit-contain me-4 w-100"
+                    src="https://m.realnoevremya.ru/uploads/mediateka/16/52/404ca60716516cb8.md.jpg"
+                    alt="Адвокат Сахабиев г. Казань СМИ 2" />
+                </div>
+                <div class="col-12 col-md-6 col-lg-8">
                   <h3>
                     Жители Казани пожаловались на строителей театра им. Камала
                   </h3>
@@ -780,11 +799,17 @@ session_start();
                 </div>
               </div>
             </div>
-            <div class="col-12 mt-4">
-              <div class="d-flex flex-column flex-lg-row">
-                <img class="object-fit-contain me-4"
-                  src="https://m.realnoevremya.ru/uploads/mediateka/d9/52/6ce0806ddd6ae8b8.md.jpg" alt="" width="300" />
-                <div>
+          </div>
+
+          <div class="col-12 mt-4">
+            <div class="d-flex flex-column flex-lg-row">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <img class="object-fit-contain me-4 w-100"
+                    src="https://m.realnoevremya.ru/uploads/mediateka/d9/52/6ce0806ddd6ae8b8.md.jpg"
+                    alt="Адвокат Сахабиев г. Казань СМИ 3" />
+                </div>
+                <div class="col-12 col-md-6 col-lg-8">
                   <h3>
                     КС разрешил привлекать к ответственности за старые
                     публикации — это коснется постов, комментариев и репостов
@@ -807,6 +832,7 @@ session_start();
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
 
@@ -831,7 +857,9 @@ session_start();
 
           <div class="row contacts__cards wow animate__slideInUp">
             <div class="col-12 col-md-6">
-              <img src="./assets/img/Bulat_2.webp" alt="" class="object-fit-contain feedback__photo" />
+              <img src="./assets/img/Bulat_2.webp"
+                alt="Запишитесь на бесплатную консультацию к адвокату по уголовным делам по городу Казань Сахабиеву Б.В."
+                class="object-fit-contain feedback__photo" />
             </div>
             <div class="col-12 col-md-6">
               <h1>Заполните форму ниже</h1>
@@ -871,7 +899,7 @@ session_start();
       <div class="patch">
         <div class="container">
           <h2 class="contacts__patch wow animate__slideInLeft">
-            Как со мной связаться?
+            Есть ли еще способы связи с вами?
           </h2>
         </div>
       </div>

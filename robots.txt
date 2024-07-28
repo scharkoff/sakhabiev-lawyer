@@ -1,4 +1,3 @@
-User-agent 
-Disallow 
-Host sakhabiev.ru
-Sitemap httpsakhabiev.rusitemap.xml
+User-agent: *
+Allow: https://sakhabiev.ru/
+Sitemap https://sakhabiev.ru/sitemap.xml
